@@ -1,0 +1,331 @@
+body{
+    background-color: rgb(0, 0, 0);
+        
+}
+.homepage{
+    background-image: url("image.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position-x: -2px; */
+    margin-left: -8px;
+    margin-right: -1px;
+    margin-top: -60px;
+    margin-bottom: -1px;
+    height: 800px;
+    padding-top: 70px;
+}
+.links {
+
+    background-color: rgba(10, 10, 10, 0.541);
+    margin-top: -6px;
+    padding-top: 1px;
+    padding-bottom:10px;
+    padding-left: 0px;
+    margin-left:-7px;
+    margin-right:-7px;
+    position: sticky;
+    top: 0%;
+}
+
+.pages{
+    text-decoration: none;
+    color:rgb(250, 250, 250);
+    font-size: 22px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top: 2px;
+    padding-bottom: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0%;
+    
+}
+
+.pages:hover{
+    /* background-color: rgb(57, 219, 247); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color:rgb(253, 101, 241);
+    transition: all 0.2s ease-out;
+    position: relative;
+}
+#sKILLS{
+    margin-right: 150px;
+    position: relative;
+}
+
+#icon{
+    width: 30px;
+    height: 30px;
+    padding-left:15px;
+    padding-right:15px;
+    
+    border-radius: 50%;
+    position: relative;
+}
+#yt{
+    width: 30px;
+    height: 30px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 50%;
+    
+}
+.img{
+    /* border-style: solid; */
+    margin-top: 20px; 
+    border-right: 0px;
+    margin-left: 70px;
+    border-radius: 50%;
+    /* clip-path: circle(50%); */
+}
+.img:hover{
+    border-color: rgb(216, 202, 6); 
+    border-width: 1px; 
+    border-style:solid;
+    transition: all 0.2s ease-out;
+    box-shadow: 0 5px 15px rgba(182, 133, 92, 0.4);
+}
+.text{
+    text-align:center;
+    margin-left: 350px;
+    margin-right: 90px;
+    margin-top: -29%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px; 
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(5, 5, 5, 0.267);
+}
+.name{
+    color:rgb(255, 251, 0);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.aboutpage{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    
+    font-family: 'Poppins', sans-serif;
+    min-height: 999px;
+    
+    margin-top:-10px;
+    margin-left:-8px;
+    margin-right:-8px;
+    
+}
+.Aboutme{
+    color:rgb(102, 212, 245);
+    font-size: 45px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-stretch: ultra-condensed;
+    padding-right:220px;
+    padding-top: 40px;
+    margin-left: 700px;
+    margin-right: 300px;
+    
+}
+.img2{
+    /* border-style: solid; */
+    margin-top: 90px; 
+    border-right: 0px;
+    margin-left: 100px;
+    width: 400px;
+    height:400px;
+    clip-path: polygon(0 0, 70% 0, 100% 50%, 70% 100%, 0 100% );
+    border-radius:20px ;
+}
+
+
+.title{
+    color: rgb(245, 241, 3);
+    margin-left: 600px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+
+.abouttext{
+    margin-top: -380px;
+    margin-right: 100px;
+    background-color: rgba(0, 0, 0, 0.514);
+    
+    margin-bottom:80px; 
+    border-radius: 20px;
+    height: 347px;
+    
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 670px;
+}
+.Aboutme:hover{
+    color:rgb(247, 19, 247)
+}
+.skilltext{
+    background-color: rgba(0, 0, 0, 0.397);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    margin-top:130px;
+}
+.skill{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 45px;
+    color:rgb(253, 238, 18);
+    padding-top: 2px;
+}
+.skills{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    /* margin-top: 200px; */
+    color:rgb(11, 202, 250);
+    font-size: 23px; 
+}
+.container{
+    
+    background-color: rgb(201, 193, 202);
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -20px;
+}
+.box{
+    background-color: red;
+    border-radius: 20px;
+    width: 70%;
+    height: 20px;
+    position: relative;
+    animation-name: html;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes html {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+.box1{
+    background-color: rgb(117, 12, 236);
+    border-radius: 20px;
+    width: 40%;
+    height: 20px;
+    position: relative;
+    animation-name: css;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes css {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 40%;
+    }
+}
+.box2{
+    background-color: red;
+    border-radius: 20px;
+    width: 30%;
+    height: 20px;
+    position: relative;
+    animation-name: django;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes django {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 30%;
+    }
+}
+.box3{
+    background-color: rgb(117, 12, 236);
+    border-radius: 20px;
+    width: 50%;
+    height: 20px;
+    position: relative;
+    animation-name: MySQL;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    margin-bottom:50px;
+}
+
+@keyframes MySQL {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 50%;
+    }
+}
+.html{
+    height: 50px;
+    width: 50px;
+    margin-bottom: -10px;
+    border-radius: 50%;
+}
+.contactpage{
+    background-image: url("contact3.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100% 100%;
+    min-height: 800px;
+    min-width: 800px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+}
+.messageicon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-bottom: -128px;
+    margin-left: 600px;
+}
+.contact{
+    color:rgb(233, 122, 18);
+    font-size: 37px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: 'Kanit', sans-serif;
+    padding-top: 25px;
+    text-align: center;
+}
+.cONTACT:hover{
+    color:rgb(245, 245, 9)
+}
+.contacttext{
+    background-color: rgba(14, 13, 13, 0.466);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px; 
+}
+textarea {
+    resize: none;
+ }
+#last{
+    color:rgb(12, 211, 247);
+    font-family: cursive;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#last:hover{
+    color: rgb(238, 122, 228);
+}
